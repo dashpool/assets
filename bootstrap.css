@@ -147,6 +147,14 @@
     border-top: 2px solid #f60 !important;
 }
 
+._dash-loading {
+  text-align: center;
+  font-size:2.5rem;
+  font-weight:500;
+  color: lightgray;
+  padding-top: 60px;
+}
+
 ._dash-loading-callback {
 font-family: sans-serif;
 
@@ -170,3 +178,24 @@ background-color: rgb(150, 150, 150);
 -o-animation: fadein 0.5s ease-in 1s forwards; /* Opera */
   animation: fadein 0.5s ease-in 1s forwards;
 }
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+
