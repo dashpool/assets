@@ -209,3 +209,6 @@ input[type="checkbox"],
 input[type="radio"]:not(.form-check-input):not(.dash-select-cell input){
   filter: hue-rotate(150deg);
 }
+.rc-slider {
+    filter: hue-rotate(180deg);
+}
