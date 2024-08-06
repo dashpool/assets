@@ -204,3 +204,8 @@
 }
 
 
+/* color change for checkbox */
+input[type="checkbox"],
+input[type="radio"]:not(.form-check-input):not(.dash-select-cell input){
+  filter: hue-rotate(150deg);
+}

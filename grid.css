@@ -1,8 +1,18 @@
+.widget-iframe {
+  height: calc(100% + 16px);
+  margin: -8px;
+}
 
+
+.lm-mod-override-cursor .widget-iframe {
+  visibility: hidden;
+}
+
+.p-dialog {
+  box-shadow: 2px 2px 15px 10px rgb(0 0 0 / 40%) !important;
+}
 
 /* some grid stuff */
-
-
 
 .row>* {
     flex-shrink: 0;
